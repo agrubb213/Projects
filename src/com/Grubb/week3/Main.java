@@ -3,6 +3,12 @@ package com.Grubb.week3;
 import java.util.Scanner;
 
 public class Main {
+    /*
+    2/5/2019
+    Austin Grubb
+    Takes tasks and does a bunch of fun things like remove task, update task, list task, and add task
+    using methods, arrays, for loops, switch, and do while's.
+     */
     public static Scanner scan = new Scanner(System.in);
     public static int maxTasks = 100;
     public static String[] task = new String[maxTasks];
