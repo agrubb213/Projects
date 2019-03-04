@@ -14,7 +14,7 @@ public class Task {
     public int id;
 
     /**
-     *
+     * create task
      * @param taskName the name of object
      * @param taskDes the description of the object
      * @param taskPri the priority of the
@@ -26,7 +26,7 @@ public class Task {
     }
 
     /**
-     *
+     * get the id
      * @return the number associated with the task.
      */
     public int getId(){
@@ -34,7 +34,7 @@ public class Task {
     }
 
     /**
-     *
+     * make the id
      * @param id set the number associated with the task.
      */
     public void setId(int id){
@@ -42,7 +42,7 @@ public class Task {
     }
 
     /**
-     *
+     * get the task name
      * @return the name of the object (task name)
      */
     public String getTaskName() {
@@ -50,7 +50,7 @@ public class Task {
     }
 
     /**
-     *
+     * get the task description
      * @return the description of object(task)
      */
     public String getTaskDes() {
@@ -58,7 +58,7 @@ public class Task {
     }
 
     /**
-     *
+     * get the priority
      * @return the priority of the object(task)
      */
     public int getTaskPri() {
